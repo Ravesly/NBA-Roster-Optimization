@@ -16,7 +16,7 @@ Desarrollar un modelo predictivo orientado a optimizar la rentabilidad de las fr
 - Optimizar decisiones estratégicas en el Draft
 ---
 
-## 📌 Contexto
+## Contexto
 
 La NBA moderna opera bajo un entorno altamente competitivo y financieramente exigente.  
 Cada selección del Draft y cada contrato representan una inversión estratégica.
@@ -47,7 +47,7 @@ Los datasets limpios utilizados en este proyecto pueden consultarse en la siguie
 
 **[Acceder a la rama CSV](https://github.com/Ravesly/NBA-Roster-Optimization/tree/main/csv)**
 
-## 🛠 Tecnologías Empleadas
+## Tecnologías Empleadas
 
 - Python  
 - Pandas  
