@@ -1,5 +1,5 @@
 # NBA Roster Optimization  
-## Modelo Predictivo para la Reducción de Costos por Inactividad y Talento Infravalorado
+
 
 <p align="center">
   <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf" width="800"/>
