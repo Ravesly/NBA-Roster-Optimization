@@ -23,7 +23,7 @@ Cada selección del Draft y cada contrato representan una inversión estratégic
 
 Para garantizar un modelo con alta capacidad de generalización y relevancia económica, el análisis se segmentó entre los años **2004 y 2023**, debido a:
 
-- Estandarización del mercado con 30 franquicias.
+- Estandarización del mercado.
 - Consolidación del formato moderno de 2 rondas del Draft.
 - Mayor precisión en la variable de inactividad.
 - Profesionalización en la captura de métricas físicas y estadísticas avanzadas.
