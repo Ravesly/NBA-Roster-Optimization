@@ -45,7 +45,7 @@ El proyecto se organiza bajo metodología de sprints y control de versiones medi
 
 Los datasets limpios utilizados en este proyecto pueden consultarse en la siguiente rama:
 
-**[Acceder a la rama CSV](https://github.com/Ravesly/NBA-Roster-Optimization/tree/sprint_1/csv)**
+**[Acceder a la rama CSV](https://github.com/Ravesly/NBA-Roster-Optimization/tree/main/csv)**
 
 ## 🛠 Tecnologías Empleadas
 
