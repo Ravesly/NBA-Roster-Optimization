@@ -59,7 +59,7 @@ Los datasets limpios utilizados en este proyecto pueden consultarse en la siguie
 
 ## Presentación
 **Link de presentación:**  
-_(Pendiente de agregar)_
+(https://www.canva.com/design/DAHBGv9sZuc/FmPbbLb9jVUZOnrIofRxKg/edit?utm_content=DAHBGv9sZuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
