@@ -4,10 +4,6 @@
 2. [Información de Jugadores](#información-de-jugadores)  
 3. [Información de Partidos](#información-de-partidos)  
 4. [Información de Equipos](#información-de-equipos)  
-5. [Dataset Más Importante](#dataset-más-importante)  
-6. [Decisiones Clave de Limpieza](#decisiones-clave-de-limpieza)  
-7. [Conclusión](#conclusión)
-
 ---
 
 # Estructura General del Dataset
