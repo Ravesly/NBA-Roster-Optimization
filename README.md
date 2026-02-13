@@ -15,6 +15,8 @@ Desarrollar un modelo predictivo orientado a optimizar la rentabilidad de las fr
 - Optimización del Retorno de Inversión (ROI) en contratos.
 - Optimizar decisiones estratégicas en el Draft
 ---
+## Diagrama de Entidad Relación
+https://github.com/Ravesly/NBA-Roster-Optimization/blob/main/DER%20DRAFT%20NBA.png
 
 ## Contexto
 
