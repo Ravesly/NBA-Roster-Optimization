@@ -16,7 +16,8 @@ Desarrollar un modelo predictivo orientado a optimizar la rentabilidad de las fr
 - Optimizar decisiones estratégicas en el Draft
 ---
 ## Diagrama de Entidad Relación
-![Diagrama ER](DER%20DRAFT%20NBA.png)
+![Diagrama ER](assets/DER%20DRAFT%20NBA.png)
+
 
 
 ## Contexto
