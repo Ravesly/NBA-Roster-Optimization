@@ -23,62 +23,55 @@ Cada bloque cumple una función específica dentro del análisis.
 ---
 
 # Información de Jugadores
+Muestra los perfiles de cada jugador y sus datos actuales 
 
-## common_player_info
+## Tablas Incluidas
 
-### Propósito
+common_player_info
 
-Tabla base estructural del proyecto. Permite identificar y caracterizar a cada jugador.
+player
 
-### Información incluida
+inactive_players
 
-- Identificación: `person_id`, nombres  
-- Datos físicos: `height`, `weight`  
-- Estado profesional: `rosterstatus`  
-- Trayectoria: `from_year`, `to_year`, `season_exp`  
-- Equipo actual: `team_id`, `team_name`  
-- Información de draft  
+draft_history
 
----
-
-## draft_combine_stats
-
-### Propósito
-
-Contiene métricas físicas y técnicas obtenidas en el NBA Draft Combine.
-
-### Información incluida
-
-- Medidas físicas (altura, peso, envergadura)  
-- Pruebas atléticas (vertical, sprint, agilidad)  
-- Pruebas técnicas de tiro (`spot_*`, `off_drib_*`, `on_move_*`)  
+draft_combine_stats
 
 ---
 
 # Información de Partidos
 
-## game
+Muestran las estadisticas de cada partido y permiten ver el rendimiento en la competencia.
 
-Tabla principal de rendimiento en competencia.
+## Tablas Incluidas 
 
-Incluye:
+- game
 
-- Puntos  
-- Rebotes  
-- Asistencias  
-- Porcentajes de tiro  
-- Resultado del partido  
+- game_info
 
+- game_summary
+
+- line_score
+
+- other_stats
+
+- play_by_play
+
+- officials
 ---
 
 # Información de Equipos
 
-## team
+Muestra la información de los equipos por temporadas, cuidad o administraciones.
 
-Información básica del equipo:
+## Tablas incluidas
 
-- Nombre  
-- Ciudad  
-- Año de fundación  
+- team
+
+- team_details
+
+- team_history
+
+- team_info_common  
 
 ---
