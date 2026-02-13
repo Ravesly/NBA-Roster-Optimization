@@ -80,6 +80,11 @@ La arquitectura implementada permite un flujo de datos seguro, automatizado y es
 
 ---
 
+## Proyecto Integrador 
+
+**[Ve a este link para ver el proyecto](https://docs.google.com/document/d/1FU2Nm4tVonkBbrriwm5wt-3XUIiFiJobLnINLZZMhEc/edit?usp=sharing)**
+
+
 ## Impacto Esperado
 
 - Reducción de costos asociados a contratos de bajo rendimiento.
