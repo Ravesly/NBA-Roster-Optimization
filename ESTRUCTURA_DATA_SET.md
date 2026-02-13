@@ -1,17 +1,4 @@
-## Descripción del Proyecto
-
-Este proyecto tiene como objetivo analizar información histórica de la NBA para evaluar la relación entre:
-
-- Perfil físico previo al ingreso a la liga  
-- Contexto de draft  
-- Rendimiento real en competencia  
-- Información estructural de jugadores y equipos  
-
-El dataset se organiza en múltiples tablas que se integran para construir un modelo de análisis y optimización de roster.
-
----
-
-# Índice
+## Índice
 
 1. [Estructura General del Dataset](#estructura-general-del-dataset)  
 2. [Información de Jugadores](#información-de-jugadores)  
