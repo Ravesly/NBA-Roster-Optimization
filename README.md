@@ -56,10 +56,27 @@ Los datasets limpios utilizados en este proyecto pueden consultarse en la siguie
 - Git & GitHub  
 
 ---
+## Flujo de Datos
 
+<p align="center">
+  <img src="assets/arquitectura_datos.png" width="100%"/>
+</p>
+
+### Descripción
+
+La arquitectura implementada permite un flujo de datos seguro, automatizado y escalable desde la ingesta hasta la visualización analítica.
+
+- **Seguridad:** IAM, KMS, VPC y Security Groups garantizan control de accesos y cifrado.
+- **Ingesta:** Los datos crudos se almacenan en AWS S3 (Bucket RAW).
+- **Procesamiento:** AWS Lambda y Python ejecutan procesos ETL y limpieza.
+- **Almacenamiento:** AWS RDS (SQL Server) consolida datos estructurados.
+- **Visualización:** Power BI permite análisis e insights estratégicos.
+- **Escalabilidad:** Athena y Redshift soportan consultas y almacenamiento a gran escala.
+- 
 ## Presentación
 **Link de presentación:**  
-(https://www.canva.com/design/DAHBGv9sZuc/FmPbbLb9jVUZOnrIofRxKg/edit?utm_content=DAHBGv9sZuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+**[Haz click para ir a la presentación](https://www.canva.com/design/DAHBGv9sZuc/FmPbbLb9jVUZOnrIoFRxKg/edit?utm_content=DAHBGv9sZuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
 
 ---
 
