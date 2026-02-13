@@ -1,238 +1,97 @@
+## Descripción del Proyecto
+
 Este proyecto tiene como objetivo analizar información histórica de la NBA para evaluar la relación entre:
 
-Perfil físico previo al ingreso a la liga.
-
-Contexto de draft.
-
-Rendimiento real en competencia.
-
-Información estructural de jugadores y equipos.
+- Perfil físico previo al ingreso a la liga  
+- Contexto de draft  
+- Rendimiento real en competencia  
+- Información estructural de jugadores y equipos  
 
 El dataset se organiza en múltiples tablas que se integran para construir un modelo de análisis y optimización de roster.
 
-Índice
+---
 
-Estructura General del Dataset
+# Índice
 
-Información de Jugadores
+1. [Estructura General del Dataset](#estructura-general-del-dataset)  
+2. [Información de Jugadores](#información-de-jugadores)  
+3. [Información de Partidos](#información-de-partidos)  
+4. [Información de Equipos](#información-de-equipos)  
+5. [Dataset Más Importante](#dataset-más-importante)  
+6. [Decisiones Clave de Limpieza](#decisiones-clave-de-limpieza)  
+7. [Conclusión](#conclusión)
 
-Información de Partidos
+---
 
-Información de Equipos
-
-Dataset Más Importante
-
-Decisiones Clave de Limpieza
-
-Conclusión
-
-Estructura General del Dataset
+# Estructura General del Dataset
 
 El ecosistema de datos se divide en tres bloques principales:
 
-Información de jugadores
-
-Información de partidos
-
-Información de equipos
+- Información de jugadores  
+- Información de partidos  
+- Información de equipos  
 
 Cada bloque cumple una función específica dentro del análisis.
 
-Información de Jugadores
-common_player_info
-Propósito
+---
+
+# Información de Jugadores
+
+## common_player_info
+
+### Propósito
 
 Tabla base estructural del proyecto. Permite identificar y caracterizar a cada jugador.
 
-Información incluida
+### Información incluida
 
-Identificación: person_id, nombres
+- Identificación: `person_id`, nombres  
+- Datos físicos: `height`, `weight`  
+- Estado profesional: `rosterstatus`  
+- Trayectoria: `from_year`, `to_year`, `season_exp`  
+- Equipo actual: `team_id`, `team_name`  
+- Información de draft  
 
-Datos físicos: height, weight
+---
 
-Estado profesional: rosterstatus
+## draft_combine_stats
 
-Trayectoria: from_year, to_year, season_exp
-
-Equipo actual: team_id, team_name
-
-Información de draft
-
-Importancia
-
-Es la tabla central para realizar relaciones con el resto del dataset.
-
-draft_combine_stats
-Propósito
+### Propósito
 
 Contiene métricas físicas y técnicas obtenidas en el NBA Draft Combine.
 
-Información incluida
+### Información incluida
 
-Medidas físicas (altura, peso, envergadura)
+- Medidas físicas (altura, peso, envergadura)  
+- Pruebas atléticas (vertical, sprint, agilidad)  
+- Pruebas técnicas de tiro (`spot_*`, `off_drib_*`, `on_move_*`)  
 
-Pruebas atléticas (vertical, sprint, agilidad)
+---
 
-Pruebas técnicas de tiro (spot_*, off_drib_*, on_move_*)
+# Información de Partidos
 
-Importancia
+## game
 
-Permite evaluar el potencial físico del jugador previo a su ingreso a la NBA.
+Tabla principal de rendimiento en competencia.
 
-draft_history
-Propósito
+Incluye:
 
-Registra el contexto del draft de cada jugador.
+- Puntos  
+- Rebotes  
+- Asistencias  
+- Porcentajes de tiro  
+- Resultado del partido  
 
-Información incluida
+---
 
-Ronda de selección
+# Información de Equipos
 
-Pick global
-
-Equipo que lo seleccionó
-
-Tipo de draft
-
-Importancia
-
-Permite analizar la relación entre posición de draft y desempeño posterior.
-
-inactive_players
-
-Registra jugadores inactivos por partido, lo que permite identificar ausencias estructurales en estadísticas de juego.
-
-player
-
-Tabla simplificada con información básica del jugador.
-
-Información de Partidos
-game
-Propósito
-
-Contiene estadísticas principales del partido separadas por equipo local y visitante.
-
-Información incluida
-
-Puntos
-
-Rebotes
-
-Asistencias
-
-Porcentajes de tiro
-
-Resultado del partido
-
-Importancia
-
-Es la base para medir rendimiento real en competencia.
-
-game_info
-
-Información contextual del partido:
-
-Fecha
-
-Asistencia
-
-Duración
-
-game_summary
-
-Resumen general del partido:
-
-Estado del juego
-
-Equipos
-
-Temporada
-
-line_score
-
-Detalle del puntaje por cuarto y tiempos extra.
-
-other_stats
-
-Estadísticas avanzadas:
-
-Puntos en la pintura
-
-Segundas oportunidades
-
-Cambios de liderazgo
-
-Turnovers
-
-play_by_play
-
-Registro detallado evento por evento de cada partido.
-
-officials
-
-Información de árbitros por partido.
-
-Información de Equipos
-team
+## team
 
 Información básica del equipo:
 
-Nombre
+- Nombre  
+- Ciudad  
+- Año de fundación  
 
-Ciudad
-
-Año de fundación
-
-team_details
-
-Información administrativa:
-
-Arena
-
-Capacidad
-
-General Manager
-
-Head Coach
-
-team_history
-
-Historial de cambios de ciudad y nombre.
-
-team_info_common
-
-Estadísticas agregadas por temporada:
-
-Victorias y derrotas
-
-Ranking
-
-Puntos por partido
-
-Rebotes por partido
-
-Asistencias por partido
-
-Dataset Más Importante
-
-Para el modelo de NBA Roster Optimization, las tablas clave son:
-
-1. common_player_info
-
-Base estructural para identificar jugadores y realizar relaciones entre tablas.
-
-2. game
-
-Fuente principal del rendimiento real en competencia.
-
-3. draft_combine_stats
-
-Perfil físico y técnico previo al ingreso a la NBA.
-
-En términos estratégicos:
-
-common_player_info = Identidad
-
-draft_combine_stats = Potencial
-
-game = Rendimiento real
+---
