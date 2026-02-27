@@ -131,7 +131,7 @@ No rentable:
 ## Matriz de Correlación: Draft Pick, Desempeño y Rentabilidad
 
 <p align="center">
-  <img src="graficas/MATRIZ DE CORRELACI\303\223N.png" width="600">
+  <img src="graficas/matcot.png" width="600">
 </p>
 
 Esta matriz de correlación muestra la relación entre la posición del Draft (overall_pick), el desempeño del jugador (PPI) y la rentabilidad (ROI).
