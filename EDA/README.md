@@ -142,6 +142,20 @@ Adicionalmente, se observa una correlación positiva perfecta (1.00) entre el de
 
 Estos resultados validan la hipótesis principal del proyecto: el Draft representa una inversión estratégica donde seleccionar correctamente aumenta significativamente el retorno de inversión de las franquicias.
 
+## Promedio de asistencias por temporada
+
+<p align="center">
+  <img src="promas.png" width="600">
+</p>
+
+Esta gráfica muestra el promedio de asistencias registradas por temporada en la NBA.
+
+Las asistencias representan una métrica clave del rendimiento ofensivo, ya que reflejan la capacidad de creación de juego y el impacto del jugador en el equipo.
+
+Se observa variabilidad entre temporadas, lo que evidencia cambios en el ritmo de juego y en la eficiencia ofensiva.
+
+Este indicador es relevante para el modelo predictivo, ya que los jugadores con mayor contribución ofensiva tienden a tener carreras más largas y mayor rentabilidad.
+
 ## Conclusiones
 
 ✔ La duración de la carrera predice el ROI
