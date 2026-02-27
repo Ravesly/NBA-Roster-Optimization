@@ -114,7 +114,18 @@ Este flujo garantiza un proceso reproducible, estructurado y escalable.
 
 # Análisis Exploratorio de Datos (EDA)
 
-El análisis permitió identificar patrones clave:
+El análisis exploratorio completo, incluyendo gráficas, métricas de rentabilidad y hallazgos clave, puede consultarse en el siguiente enlace:
+
+**[Haz clic aquí para ver el Análisis Exploratorio de Datos completo](../EDA/README.md)**
+
+Este análisis permitió identificar patrones fundamentales como:
+
+- La relación entre la posición del Draft y la rentabilidad.
+- La duración de la carrera como indicador de ROI.
+- La baja proporción de jugadores que alcanzan nivel élite.
+- Métricas de rendimiento asociadas al éxito profesional.
+
+Estos hallazgos fueron utilizados como base para el desarrollo del modelo predictivo.
 
 ## Rentabilidad de jugadores
 
