@@ -81,9 +81,8 @@ Es la base para el análisis y la construcción del modelo análitico.
 El siguiente diagrama muestra la arquitectura de datos implementada en el proyecto, desde la obtención de los datos hasta su procesamiento y análisis.
 
 <p align="center">
-  <img src="../assets/arquitectura_datos.png" width="900">
+  <img src="../EDA/graficas/arquitectura_datos.png" width="900">
 </p>
-
 ### Descripción del flujo
 
 El flujo sigue las siguientes etapas:
