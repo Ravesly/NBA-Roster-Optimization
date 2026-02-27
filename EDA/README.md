@@ -50,7 +50,15 @@ Justificación:
 
 Los contratos rookie duran aproximadamente 4 años.
 
----
+---### Cantidad de jugadores rentables vs no rentables
+
+<p align="center">
+  <img src="graficas/cantidad jugadores rentables.png" width="600">
+</p>
+
+La gráfica muestra la distribución de jugadores clasificados como rentables y no rentables, según el criterio definido de al menos 5 temporadas jugadas en la NBA.
+
+Se observa que una proporción significativa de jugadores no alcanza el umbral de rentabilidad, lo que confirma que el Draft representa una inversión con riesgo para las franquicias.
 
 ## 📉 Distribución Duración Carrera
 
