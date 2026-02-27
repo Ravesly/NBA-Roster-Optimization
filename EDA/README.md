@@ -128,25 +128,19 @@ No rentable:
 
 < 200 partidos
 
----
+## Matriz de Correlación: Draft Pick, Desempeño y Rentabilidad
 
-## Métricas de eficiencia utilizadas
+<p align="center">
+  <img src="graficas/probabilidad de exito seg\303\272n el draf.png" width="600">
+</p>
 
-Variables:
+Esta matriz de correlación muestra la relación entre la posición del Draft (overall_pick), el desempeño del jugador (PPI) y la rentabilidad (ROI).
 
-pts_home
-pts_away
+Los resultados muestran una correlación negativa moderada (-0.32) entre la posición del Draft y la rentabilidad, lo que indica que los jugadores seleccionados en posiciones más altas (picks bajos) presentan mayor retorno de inversión.
 
-fgm
-fga
+Adicionalmente, se observa una correlación positiva perfecta (1.00) entre el desempeño del jugador y la rentabilidad, confirmando que el rendimiento deportivo es el principal factor que determina el éxito financiero de la inversión.
 
-fg3m
-fg3a
-
-ftm
-fta
-
----
+Estos resultados validan la hipótesis principal del proyecto: el Draft representa una inversión estratégica donde seleccionar correctamente aumenta significativamente el retorno de inversión de las franquicias.
 
 ## Conclusiones
 
