@@ -269,7 +269,8 @@ Hallazgos principales:
 - Muchos jugadores no generan retorno
 - La posición en el Draft influye en el éxito
 - La duración de carrera es un indicador clave de ROI
-
+- Según los resultado obtinidos del top de mejores, lo jugares con un perfil similar tiene mayor posibilidad de ser rentables
+  probalidad de ser 
 Esto proporciona una ventaja competitiva estratégica para las franquicias.
 
 ---
