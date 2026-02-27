@@ -70,9 +70,13 @@ Hallazgo:
 
 La mayoría de jugadores no supera los 5 años.
 
-Esto confirma que el Draft es una inversión de alto riesgo.
+<p align="center">
+  <img src="graficas/DISA%C3%91OS.png" width="600">
+</p>
 
----
+La gráfica muestra la distribución y comportamiento de la variable analizada, permitiendo identificar patrones relevantes para el modelo predictivo.
+
+Este análisis contribuye a comprender los factores asociados al rendimiento y la rentabilidad de los jugadores.
 
 ## Experiencia vs Rentabilidad
 
