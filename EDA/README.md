@@ -100,9 +100,17 @@ Se observa que los jugadores rentables presentan en promedio una carrera signifi
 
 Este resultado valida la variable ROI utilizada en el proyecto, confirmando que la duración de la carrera es un indicador confiable del retorno de inversión.
 
-## Rentabilidad vs Draft Pick
+## Probabilidad de éxito según el Draft Pick
 
-Conclusión:
+<p align="center">
+  <img src="graficas/probabilidad de exito seg%C3%BAn el draf.png" width="600">
+</p>
+
+La gráfica muestra la relación entre la posición en el Draft y la probabilidad de que un jugador sea rentable.
+
+Se observa que los jugadores seleccionados en posiciones más altas presentan una mayor probabilidad de éxito, mientras que los picks más bajos tienen menor probabilidad de generar retorno de inversión.
+
+Esto confirma que el Draft representa una inversión estratégica donde las primeras selecciones tienen mayor probabilidad de generar valor, aunque también implican un mayor costo.
 
 Picks altos tienen mayor probabilidad de éxito.
 
