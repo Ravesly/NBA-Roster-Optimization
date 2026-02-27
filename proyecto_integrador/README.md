@@ -178,6 +178,88 @@ Estas métricas son fundamentales para evaluar ROI deportivo.
 
 ---
 
+# Modelo Predictivo
+
+A partir de los hallazgos obtenidos en el Análisis Exploratorio de Datos (EDA), se desarrolló un modelo predictivo orientado a estimar la rentabilidad futura de los jugadores seleccionados en el Draft de la NBA.
+
+El objetivo principal del modelo es servir como herramienta de apoyo para la toma de decisiones estratégicas, permitiendo a las franquicias:
+
+- Identificar jugadores con alta probabilidad de generar retorno de inversión (ROI).
+- Detectar tempranamente jugadores con riesgo de baja rentabilidad o inactividad.
+- Optimizar la asignación de recursos financieros en contratos.
+
+---
+
+## Variable Objetivo (Target)
+
+La variable objetivo del modelo es:
+
+**Rentabilidad del jugador (ROI)**
+
+Definida como una variable binaria:
+
+- **1 → Jugador rentable**
+- **0 → Jugador no rentable**
+
+Esta clasificación se construyó utilizando criterios como:
+
+- Número de temporadas jugadas.
+- Cantidad de partidos disputados.
+- Permanencia en la liga.
+
+Esta variable representa el retorno de inversión desde una perspectiva deportiva y financiera.
+
+---
+
+## Variables Predictoras
+
+El modelo utiliza variables identificadas como relevantes durante el EDA, entre ellas:
+
+**Información del Draft**
+
+- overall_pick
+- draft_round
+
+**Métricas de rendimiento**
+
+- PPI (Player Performance Index)
+- Asistencias
+- Puntos
+
+**Información de carrera**
+
+- Años de experiencia
+- Temporadas jugadas
+
+---
+
+## Enfoque del Modelo
+
+El modelo utiliza técnicas de Machine Learning supervisado, permitiendo aprender patrones históricos que relacionan las características iniciales de un jugador con su rentabilidad futura.
+
+El proceso incluye:
+
+1. Selección de variables relevantes.
+2. Entrenamiento del modelo con datos históricos.
+3. Evaluación del desempeño predictivo.
+
+---
+
+## Aplicación en el Negocio
+
+Este modelo permite a las franquicias:
+
+- Reducir el riesgo financiero en el Draft.
+- Mejorar la eficiencia en la selección de jugadores.
+- Identificar talento infravalorado.
+- Optimizar el retorno de inversión.
+
+---
+
+## Impacto Estratégico
+
+La implementación de este modelo representa una ventaja competitiva, ya que permite transformar datos históricos en decisiones accionables, mejorando la gestión del talento y los recursos financieros.
+
 # Conclusiones
 
 El proyecto confirma que el Draft representa una inversión de alto riesgo.
@@ -187,12 +269,6 @@ Hallazgos principales:
 - Muchos jugadores no generan retorno
 - La posición en el Draft influye en el éxito
 - La duración de carrera es un indicador clave de ROI
-
-El modelo desarrollado permitirá:
-
-- Reducir pérdidas económicas
-- Optimizar decisiones de contratación
-- Identificar talento infravalorado
 
 Esto proporciona una ventaja competitiva estratégica para las franquicias.
 
