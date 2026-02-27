@@ -90,9 +90,15 @@ Rentables:
 
 10 años
 
-Esto valida la variable ROI.
+<p align="center">
+  <img src="graficas/experiencia vs rentabilidad.png" width="600">
+</p>
 
----
+La gráfica muestra la diferencia en años de experiencia entre jugadores clasificados como rentables y no rentables.
+
+Se observa que los jugadores rentables presentan en promedio una carrera significativamente más larga, alcanzando aproximadamente 10 años, mientras que los no rentables tienen una duración promedio cercana a 2 años.
+
+Este resultado valida la variable ROI utilizada en el proyecto, confirmando que la duración de la carrera es un indicador confiable del retorno de inversión.
 
 ## Rentabilidad vs Draft Pick
 
