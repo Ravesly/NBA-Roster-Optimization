@@ -267,4 +267,22 @@ Hallazgos principales:
   probalidad de ser 
 Esto proporciona una ventaja competitiva estratégica para las franquicias.
 
+------
+
+# Presentación del Proyecto
+
+Para conocer el desarrollo completo del proyecto, la explicación del modelo predictivo, los hallazgos del análisis y las conclusiones estratégicas, puedes acceder a la presentación oficial en el siguiente enlace:
+
+ **[Ver la presentación del proyecto aquí](https://www.canva.com/design/DAHBGv9sZuc/FmPbbLb9jVUZOnrIofRxKg/edit?utm_content=DAHBGv9sZuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+En esta presentación se incluye:
+
+- Contexto y problemática del negocio
+- Arquitectura de datos
+- Análisis Exploratorio de Datos (EDA)
+- Métricas de valor y eficiencia
+- Conclusiones estratégicas
+
+Esta presentación resume el valor analítico y el impacto potencial del proyecto en la toma de decisiones de las franquicias de la NBA.
+
 ---
