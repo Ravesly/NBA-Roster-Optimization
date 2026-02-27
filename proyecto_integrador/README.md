@@ -235,13 +235,7 @@ El modelo utiliza variables identificadas como relevantes durante el EDA, entre 
 
 ## Enfoque del Modelo
 
-El modelo utiliza técnicas de Machine Learning supervisado, permitiendo aprender patrones históricos que relacionan las características iniciales de un jugador con su rentabilidad futura.
-
-El proceso incluye:
-
-1. Selección de variables relevantes.
-2. Entrenamiento del modelo con datos históricos.
-3. Evaluación del desempeño predictivo.
+El modelo utiliza técnicas de Machine Learning supervisado, permitiendo aprender patrones históricos que relacionan las características iniciales de un jugador con su rentabilidad futura a partir de variables relevantes
 
 ---
 
